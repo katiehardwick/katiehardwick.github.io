@@ -1,0 +1,141 @@
+/*NAVBAR*/
+.navbar-default {
+  background-color:#3b3a36;
+  padding:20px;
+  border-radius:0;
+  background-image:none;
+}
+
+.navbar-default .navbar-brand {
+  color:#e9ece5;
+  font-size:2.5em;
+  font-family:'Slabo 27px', serif;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color:#b3c2bf;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:#e9ece5;
+  font-size:1.5em;
+  font-family:'Open Sans', sans-serif;
+}
+
+.navbar-header .navbar-toggle {
+  color:#e9ece5;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color:#e9ece5;
+  color:#3b3a36;
+}
+
+/*GENERAL*/
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding-top:80px;
+  background-color:#e9ece5;
+}
+
+h1 {
+  font-family: 'Slabo 27px', serif;
+  color:#3b3a36;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color:#3b3a36;
+  font-weight:bold;
+  font-size:1.8em;
+}
+
+p {
+  font-family:'Open Sans', sans-serif;
+  font-size:1.3em;
+  color:#3b3a36;
+}
+
+/*HOMEPAGE*/
+/*THUMBNAILS*/
+.jumbotron {
+  background-color:#b3c2bf;
+  color:#e9ece5;
+  text-align:center;
+  padding-left:12%;
+  padding-right:12%;
+}
+
+.jumbotron > p, .jumbotron > h1 {
+  color:#e9ece5;
+}
+
+.portfolio-thumbnail {
+  border-style: solid;
+  border-width:1px;
+  border-color: #e9ece5;
+  background-color:#e9ece5;
+  text-align: center;
+}
+
+.portfolio-thumbnail:hover{
+  border-width:1px;
+  border-style:solid;
+  border-color:#3b3a36;
+  background-color:#3b3a36;
+}
+
+/*OTHER PAGES*/
+.about {
+  color:#3b3a36;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
+.portfolio {
+  padding-top:50px;
+}
+
+.contact {
+  font-family:'Open Sans', sans-serif;
+  font-size:1.3em;
+}
+
+.mapdesc {
+  color:#3b3a36;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+@media (max-width: 400px) {
+  .navbar-default .navbar-brand {
+  color:#e9ece5;
+  font-size:1.7em;
+  font-family:'Slabo 27px', serif;
+  }
+  .navbar-default {
+  padding:5px;
+  padding-top:15px;
+  padding-bottom:15px;
+  }
+}
+/*Colors
+Dark: #3b3a36
+Background: #e9ece5
+*/
