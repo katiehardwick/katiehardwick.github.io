@@ -89,9 +89,15 @@ p {
 .portfolio-thumbnail:hover{
   border-width:1px;
   border-style:solid;
-  border-color:#3b3a36;
-  background-color:#3b3a36;
-  opacity:0.6;
+  border-color:#d9ded4;
+  background-color:#d9ded4;
+  opacity:.6;
+  -webkit-transition:background-color .2s ease-in-out;
+  -o-transition:background-color .2s ease-in-out;
+  transition:background-color .2s ease-in-out;
+  -webkit-transition:opacity .2s ease-in-out;
+  -o-transition:opacity .2s ease-in-out;
+  transition:opacity .2s ease-in-out;
 }
 
 /*OTHER PAGES*/
