@@ -122,7 +122,7 @@ p {
   padding-left:5%;
   padding-right:5%;
 }
-/*
+
 @media (max-width: 400px) {
   .navbar-default .navbar-brand {
   color:#e9ece5;
@@ -135,6 +135,7 @@ p {
   padding-bottom:15px;
   }
 }
+
 /*Colors
 Dark: #3b3a36
 Background: #e9ece5
