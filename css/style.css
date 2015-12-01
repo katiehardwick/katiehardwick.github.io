@@ -121,6 +121,23 @@ p {
   padding-right:5%;
 }
 
+@media (max-width: 400px) {
+   .navbar-default .navbar-brand {
+   color:#e9ece5;
+   font-size:1.7em;
+   font-family:'Slabo 27px', serif;
+   }
+   .navbar-default {
+   padding:5px;
+   padding-top:15px;
+   padding-bottom:15px;
+   }
+   body {
+    padding-left:2%;
+    padding-right:2%;
+   }
+ }
+
 /*Colors
 Dark: #3b3a36
 Background: #e9ece5
