@@ -72,8 +72,6 @@ p {
   background-color:#b3c2bf;
   color:#e9ece5;
   text-align:center;
-  padding-left:12%;
-  padding-right:12%;
 }
 
 .jumbotron > p, .jumbotron > h1 {
@@ -121,19 +119,6 @@ p {
   color:#3b3a36;
   padding-left:5%;
   padding-right:5%;
-}
-
-@media (max-width: 400px) {
-  .navbar-default .navbar-brand {
-  color:#e9ece5;
-  font-size:1.7em;
-  font-family:'Slabo 27px', serif;
-  }
-  .navbar-default {
-  padding:5px;
-  padding-top:15px;
-  padding-bottom:15px;
-  }
 }
 
 /*Colors
