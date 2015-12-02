@@ -12,10 +12,10 @@
   font-family:'Slabo 27px', serif;
 }
 
-.navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
   color:#b3c2bf;
 }
 
@@ -86,7 +86,8 @@ p {
   text-align: center;
 }
 
-.portfolio-thumbnail:hover{
+.portfolio-thumbnail:hover,
+.portfolio-thumbnail:focus {
   border-width:1px;
   border-style:solid;
   border-color:#d9ded4;
