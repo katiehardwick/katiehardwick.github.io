@@ -84,6 +84,7 @@ p {
   border-color: #e9ece5;
   background-color:#e9ece5;
   text-align: center;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
 }
 
 .portfolio-thumbnail:hover,
@@ -93,6 +94,9 @@ p {
   border-color:#d9ded4;
   background-color:#d9ded4;
   opacity:.6;
+  -webkit-transition:border-color .2s ease-in-out;
+  -o-transition:border-color .2s ease-in-out;
+  transition:border-color .2s ease-in-out;
   -webkit-transition:background-color .2s ease-in-out;
   -o-transition:background-color .2s ease-in-out;
   transition:background-color .2s ease-in-out;
