@@ -48,9 +48,12 @@ body {
   background-color:#e9ece5;
 }
 
-.obx {
+.obxbody {
   padding-top:0px;
   background-color:#3b3a36;
+}
+
+.obxdiv {
   display: block;
   margin-left: auto;
   margin-right: auto;
