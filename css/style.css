@@ -48,6 +48,10 @@ body {
   background-color:#e9ece5;
 }
 
+.portbody {
+  padding-top:110px;
+}
+
 .obxbody {
   padding-top:0px;
   background-color:#3b3a36;
