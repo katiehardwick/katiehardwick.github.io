@@ -59,6 +59,10 @@ body {
   margin-right: auto;
 }
 
+.obxcont {
+  width:1001px;
+}
+
 h1 {
   font-family: 'Slabo 27px', serif;
   color:#3b3a36;
