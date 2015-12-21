@@ -77,6 +77,10 @@ p {
   color:#3b3a36;
 }
 
+.pcenter {
+  text-align:center;
+}
+
 /*HOMEPAGE*/
 /*THUMBNAILS*/
 .jumbotron {
@@ -156,8 +160,8 @@ p {
    padding-bottom:15px;
    }
    body {
-    padding-left:2%;
-    padding-right:2%;
+    padding-left:5%;
+    padding-right:5%;
    }
  }
 
